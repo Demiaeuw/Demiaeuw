@@ -24,6 +24,20 @@
 <div align="left">
 	<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/C language.png" alt="c" width="40" height="40"/></a>
 	<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>
+	<a href="" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>
+	<a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noreferrer"> <img src="/media/icons/HTML.png" alt="HTML" width="40" height="40"/> </a>
+	<a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noreferrer"> <img src="/media/icons/CSS.png" alt="CSS" width="40" height="40"/> </a>
+
+</div>
+
+<h3 align="left">💿 Software</h3>
+
+<div align="left">
+	<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/VS code.png" alt="vscode" width="40" height="40"/> </a>
+	<a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Sublime Text.png" alt="sublimetext" width="40" height="40"/> </a>
+	<a href="https://krita.org/en/" target="_blank" rel="noreferrer"> <img src="/media/icons/Krita.png" alt="krita" width="40" height="40"/> </a> 
+	<a href="https://www.blackmagicdesign.com/fr/products/davinciresolve" target="_blank" rel="noreferrer"> <img src="/media/icons/Davinci Resolve.png" alt="davinci" width="40" height="40"/> </a> 
+
 </div>
 
 <h3 align="left">🛠️ Tools</h3>
@@ -34,9 +48,6 @@
 	<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="/media/icons/Linux.png" alt="linux" width="40" height="40"/> </a>
 	<a href="https://www.microsoft.com/en-us/" target="_blank" rel="noreferrer"> <img src="/media/icons/Windows.png" alt="windows" width="40" height="40"/> </a>
 	<a href="https://learn.microsoft.com/en-us/powershell/" target="_blank" rel="noreferrer"> <img src="/media/icons/Powershell.png" alt="Powershell" width="40" height="40"/> </a>
-	<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/VS code.png" alt="vscode" width="40" height="40"/> </a>
-	<a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Sublime Text.png" alt="sublimetext" width="40" height="40"/> </a>
-	<a href="https://krita.org/en/" target="_blank" rel="noreferrer"> <img src="/media/icons/Krita.png" alt="krita" width="40" height="40"/> </a> 
 </div>
 
 <h2 align="center">Connect with me:</h3>
