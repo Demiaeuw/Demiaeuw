@@ -51,6 +51,6 @@
 
 <h2 align="center">Connect with me:</h3>
 <p align="center">
-	<a href="https://www.linkedin.com/in/adrien-cabarbaye-964493231/" target="_blank"><img align="center" src="/media/icons/LinkedIn.png" alt="adrien cabarbaye" height="5à" width="50" /></a>  
+	<a href="https://www.linkedin.com/in/adrien-cabarbaye-964493231/" target="_blank"><img align="center" src="/media/icons/LinkedIn.png" alt="adrien cabarbaye" height="50" width="50" /></a>  
 	<a href="https://instagram.com/cabarbaye" target="blank"><img align="center" src="/media/icons/Instagram.png" alt="cabarbaye" height="50" width="50" /></a>  
 </p>
