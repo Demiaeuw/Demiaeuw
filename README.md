@@ -31,6 +31,11 @@
 
 - 🛠️ **Tools**
 
-	<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-	<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-	<a href="https://krita.org/en/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Calligrakrita-base.svg/langfr-1920px-Calligrakrita-base.svg.png" alt="krita" width="40" height="40"/> </a> </p>
+	<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Git.png" alt="git" width="40" height="40"/> </a>
+	<a href="https://github.com/Demiaeuw" target="_blank" rel="noreferrer"> <img src="/media/icons/Github.png" alt="github" width="40" height="40"/> </a>
+	<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="/media/icons/Linux.png" alt="linux" width="40" height="40"/> </a>
+	<a href="https://www.microsoft.com/en-us/" target="_blank" rel="noreferrer"> <img src="/media/icons/Windows.png" alt="windows" width="40" height="40"/> </a>
+	<a href="https://learn.microsoft.com/en-us/powershell/" target="_blank" rel="noreferrer"> <img src="/media/icons/Powershell.png" alt="Powershell" width="40" height="40"/> </a>
+	<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/VS code.png" alt="vscode" width="40" height="40"/> </a>
+	<a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Sublime Text.png" alt="sublimetext" width="40" height="40"/> </a>
+	<a href="https://krita.org/en/" target="_blank" rel="noreferrer"> <img src="/media/icons/Krita.png" alt="krita" width="40" height="40"/> </a> </p>
