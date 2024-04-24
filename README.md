@@ -26,7 +26,8 @@
 <h3 align="left">Languages and Tools:</h3>
 
 <div align="center">
-	- 💻 **Languages**
+
+💻 **Languages**
 </div>
 
 <div align="left">
@@ -34,8 +35,9 @@
 	<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>
 </div>
 
-<div align="center">
-- 🛠️ **Tools**
+<div align="left">
+
+<h3 align="center">🛠️ Tools</h3>
 </div>
 
 <div align="left">
