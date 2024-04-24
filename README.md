@@ -5,6 +5,7 @@
 <h3 align="left">A passionate Dev from south-France</h3>
 <h3 align="left">Student from 42 Perpignan</h3>
 <h3 align="left">I'm a curious Night Worker</h3>
+<h3 align="left">Ready to Work !</h3>
 
 <a href="https://42perpignan.fr/" target="blank"><img align="center" src="https://github.com/Demiaeuw/42_student/blob/main/ressources/images/42_header.png" alt="42_hader">
 
