@@ -22,11 +22,10 @@
 <h3 align="left">💻 Languages</h3>
 
 <div align="left">
-	<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/C language.png" alt="c" width="40" height="40"/></a>
-	<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>
-	<a href="" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>
-	<a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noreferrer"> <img src="/media/icons/HTML.png" alt="HTML" width="40" height="40"/> </a>
-	<a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noreferrer"> <img src="/media/icons/CSS.png" alt="CSS" width="40" height="40"/> </a>
+	<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/C language.png" alt="c" width="40" height="40"/></a>  
+	<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>  
+	<a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noreferrer"> <img src="/media/icons/HTML.png" alt="HTML" width="40" height="40"/> </a>  
+	<a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noreferrer"> <img src="/media/icons/CSS.png" alt="CSS" width="40" height="40"/> </a>  
 
 </div>
 
