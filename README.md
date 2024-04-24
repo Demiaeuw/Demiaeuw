@@ -26,21 +26,16 @@
 <h3 align="left">Languages and Tools:</h3>
 
 <div align="center">
-
-- 💻 **Languages**
-
+	- 💻 **Languages**
 </div>
 
 <div align="left">
 	<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/C language.png" alt="c" width="40" height="40"/></a>
 	<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>
-
 </div>
 
 <div align="center">
-
 - 🛠️ **Tools**
-
 </div>
 
 <div align="left">
@@ -53,18 +48,13 @@
 	<a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Sublime Text.png" alt="sublimetext" width="40" height="40"/> </a>
 	<a href="https://krita.org/en/" target="_blank" rel="noreferrer"> <img src="/media/icons/Krita.png" alt="krita" width="40" height="40"/> </a> 
 </div>
-
 </div>
-
 </div>
-
 
 <div align="right">
-
 <h3 align="center">Connect with me:</h3>
 <p align="right">
 	<a href="https://www.linkedin.com/in/adrien-cabarbaye-964493231/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="adrien cabarbaye" height="30" width="40" /></a>
 	<a href="https://instagram.com/cabarbaye" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="cabarbaye" height="30" width="40" /></a>
 </p>
-
 </div>
