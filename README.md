@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Adrien</h1>
 
-<img align="right" src="https://media1.tenor.com/m/qg8YV3fVfA4AAAAC/clouds.gif" alt="header">
+<img align="right" src="/media/gif_clouds_hader.gif" alt="header_cloud">
 
 <h3 align="left">A passionate Dev from south-France</h3>
 <h3 align="left">Student from 42 Perpignan</h3>
 <h3 align="left">I'm a curious Night Worker</h3>
 <h3 align="left">Ready to Work !</h3>
 
-<a href="https://42perpignan.fr/" target="blank"><img align="center" src="https://github.com/Demiaeuw/42_student/blob/main/ressources/images/42_header.png" alt="42_hader">
+<a href="https://42perpignan.fr/" target="blank"><img align="center" src="/media/42_header.png" alt="42_hader">
 
 - 🔭 I’m currently working on [so_long](https://github.com/Demiaeuw/42_so_long)
 
@@ -18,7 +18,6 @@
 	<a href="https://www.linkedin.com/in/adrien-cabarbaye-964493231/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="adrien cabarbaye" height="30" width="40" /></a>
 	<a href="https://instagram.com/cabarbaye" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="cabarbaye" height="30" width="40" /></a>
 </p>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
 
