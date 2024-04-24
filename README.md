@@ -2,10 +2,15 @@
 
 <img align="right" src="/media/gif_clouds_hader.gif" alt="header">
 
-<h3 align="left center">A passionate Dev from south-France</h3>
-<h3 align="left">Student from 42 Perpignan</h3>
-<h3 align="left">I'm a curious Night Worker</h3>
-<h3 align="left">Ready to Work !</h3>
+<div align="left">
+
+<h3 align="center">A passionate Dev from south-France</h3>
+<h3 align="center">Student from 42 Perpignan</h3>
+<h3 align="center">I'm a curious Night Worker</h3>
+<h3 align="center">Ready to Work !</h3>
+
+</div>
+
 
 <a href="https://42perpignan.fr/" target="blank"><img align="center" src="/media/42_header.png" alt="42_hader">
 
