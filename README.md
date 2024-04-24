@@ -11,18 +11,25 @@
 
 </div>
 
+<div align="center">
 
 <a href="https://42perpignan.fr/" target="blank"><img align="center" src="/media/42_header.png" alt="42_hader">
+
+</div>
 
 - 🔭 I’m currently working on [so_long](https://github.com/Demiaeuw/42_so_long)
 
 - 🌱 I’m currently learning **C language**
 
-<h3 align="right">Connect with me:</h3>
+<div align="right">
+
+<h3 align="center">Connect with me:</h3>
 <p align="right">
 	<a href="https://www.linkedin.com/in/adrien-cabarbaye-964493231/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="adrien cabarbaye" height="30" width="40" /></a>
 	<a href="https://instagram.com/cabarbaye" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="cabarbaye" height="30" width="40" /></a>
 </p>
+
+</div>
 
 <h3 align="left">Languages and Tools:
 <p align="left">
