@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Adrien</h1>
 <h3 align="center">A passionate Dev from south-France</h3>
 
+<a href="https://42perpignan.fr/" target="blank"><img align="center" src="https://raw.githubusercontent.com/Demiaeuw/42_student/main/ressources/images/42_header.png?token=GHSAT0AAAAAACRAWCUZV7RYXCX5KJUXUKACZRJBC6Q" alt="42_hader">
+
 - 🔭 I’m currently working on [so_long](https://github.com/Demiaeuw/42_so_long)
 
 - 🌱 I’m currently learning **C language**
