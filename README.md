@@ -37,7 +37,7 @@
 
 <div align="left">
 
-<h3 align="center">🛠️ Tools</h3>
+<h3 align="left">🛠️ Tools</h3>
 </div>
 
 <div align="left">
