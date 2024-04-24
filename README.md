@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Adrien</h1>
 
+---
+
 <img align="right" src="/media/gif_clouds_hader.gif" alt="header">
 
 <div align="left">
@@ -13,9 +15,11 @@
 
 <div align="center">
 
-<a href="https://42perpignan.fr/" target="blank"><img align="center" src="/media/42_header.png" alt="42_hader">
+<a href="https://42perpignan.fr/" target="blank"><img align="center" src="/media/42_header.png" alt="42_hader" width="90%" height="280"> </a>
 
 </div>
+
+---
 
 <h2 align="center">Languages and Tools:</h2>
 
@@ -49,8 +53,13 @@
 	<a href="https://learn.microsoft.com/en-us/powershell/" target="_blank" rel="noreferrer"> <img src="/media/icons/Powershell.png" alt="Powershell" width="40" height="40"/> </a>  
 </div>
 
+---
+
 <h2 align="center">Connect with me:</h3>
 <p align="center">
-	<a href="https://www.linkedin.com/in/adrien-cabarbaye-964493231/" target="_blank"><img align="center" src="/media/icons/LinkedIn.png" alt="adrien cabarbaye" height="40" width="40" /></a>  
-	<a href="https://instagram.com/cabarbaye" target="blank"><img align="center" src="/media/icons/Instagram.png" alt="cabarbaye" height="40" width="40" /></a>  
+	<a href="mailto:cabarbaye.adrien@gmail.com" target="_blank"><img align="center" src="/media/icons/Gmail.png" alt="Mail" height="40" width="40" /></a>
+	<a href="https://www.linkedin.com/in/adrien-cabarbaye-964493231/" target="_blank"><img align="center" src="/media/icons/LinkedIn.png" alt="LinkedIn" height="40" width="40" /></a>
+	<a href="#" onclick="copyToClipboard('Démia#demia')"><img align="center" src="/media/icons/Discord.png" alt="Discord" height="40" width="40" /></a>
+
+
 </p>
