@@ -19,7 +19,7 @@
 	<a href="https://instagram.com/cabarbaye" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="cabarbaye" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
+<h3 align="left">Languages and Tools:
 <p align="left">
 
 - 💻 **Languages**
@@ -37,3 +37,5 @@
 	<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/VS code.png" alt="vscode" width="40" height="40"/> </a>
 	<a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Sublime Text.png" alt="sublimetext" width="40" height="40"/> </a>
 	<a href="https://krita.org/en/" target="_blank" rel="noreferrer"> <img src="/media/icons/Krita.png" alt="krita" width="40" height="40"/> </a> </p>
+
+</h3>
