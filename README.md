@@ -23,22 +23,16 @@
 
 - 🌱 I’m currently learning **C language**
 
-<h3 align="left">Languages and Tools:</h3>
+<h2 align="left">Languages and Tools:</h2>
 
-<div align="center">
-
-💻 **Languages**
-</div>
+<h3 align="left">💻 Languages</h3>
 
 <div align="left">
 	<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/C language.png" alt="c" width="40" height="40"/></a>
 	<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>
 </div>
 
-<div align="left">
-
 <h3 align="left">🛠️ Tools</h3>
-</div>
 
 <div align="left">
 	<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Git.png" alt="git" width="40" height="40"/> </a>
