@@ -17,13 +17,7 @@
 
 </div>
 
-<div align="left">
-
-- 🔭 I’m currently working on so_long
-
-- 🌱 I’m currently learning **C language**
-
-<h2 align="left">Languages and Tools:</h2>
+<h2 align="center">Languages and Tools:</h2>
 
 <h3 align="left">💻 Languages</h3>
 
