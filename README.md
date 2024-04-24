@@ -4,7 +4,7 @@
 
 <div align="left">
 
-<h3 align="center">A passionate Dev from south-France</h3>
+<h3 align="center">A passionate Dev from the South of France</h3>
 <h3 align="center">Student from 42 Perpignan</h3>
 <h3 align="center">I'm a curious Night Worker</h3>
 <h3 align="center">Ready to Work !</h3>
@@ -51,6 +51,6 @@
 
 <h2 align="center">Connect with me:</h3>
 <p align="center">
-	<a href="https://www.linkedin.com/in/adrien-cabarbaye-964493231/" target="_blank"><img align="center" src="/media/icons/LinkedIn.png" alt="adrien cabarbaye" height="50" width="50" /></a>  
+	<a href="https://www.linkedin.com/in/adrien-cabarbaye-964493231/" target="_blank"><img align="center" src="/media/icons/LinkedIn.png" alt="adrien cabarbaye" height="40" width="40" /></a>  
 	<a href="https://instagram.com/cabarbaye" target="blank"><img align="center" src="/media/icons/Instagram.png" alt="cabarbaye" height="40" width="40" /></a>  
 </p>
