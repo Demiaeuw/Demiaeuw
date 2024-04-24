@@ -3,6 +3,8 @@
 <img align="right" src="https://media1.tenor.com/m/qg8YV3fVfA4AAAAC/clouds.gif" alt="header">
 
 <h3 align="left">A passionate Dev from south-France</h3>
+<h3 align="left">Student from 42 Perpignan</h3>
+<h3 align="left">test</h3>
 
 <a href="https://42perpignan.fr/" target="blank"><img align="center" src="https://github.com/Demiaeuw/42_student/blob/main/ressources/images/42_header.png" alt="42_hader">
 
