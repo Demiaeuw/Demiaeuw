@@ -2,7 +2,7 @@
 
 <img align="right" src="/media/gif_clouds_hader.gif" alt="header">
 
-<h3 align="left">A passionate Dev from south-France</h3>
+<h3 align="left center">A passionate Dev from south-France</h3>
 <h3 align="left">Student from 42 Perpignan</h3>
 <h3 align="left">I'm a curious Night Worker</h3>
 <h3 align="left">Ready to Work !</h3>
