@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Adrien</h1>
-<img align="center" src="https://media1.tenor.com/m/qg8YV3fVfA4AAAAC/clouds.gif" alt="header">
+<img align="left" src="https://media1.tenor.com/m/qg8YV3fVfA4AAAAC/clouds.gif" alt="header">
 <h3 align="center">A passionate Dev from south-France</h3>
 
 <a href="https://42perpignan.fr/" target="blank"><img align="center" src="https://github.com/Demiaeuw/42_student/blob/main/ressources/images/42_header.png" alt="42_hader">
