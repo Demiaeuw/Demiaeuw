@@ -29,6 +29,9 @@
 
 - 💻 **Languages**
 
+</div>
+
+<div align="left">
 	<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/C language.png" alt="c" width="40" height="40"/></a>
 	<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>
 
@@ -38,6 +41,9 @@
 
 - 🛠️ **Tools**
 
+</div>
+
+<div align="left">
 	<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Git.png" alt="git" width="40" height="40"/> </a>
 	<a href="https://github.com/Demiaeuw" target="_blank" rel="noreferrer"> <img src="/media/icons/Github.png" alt="github" width="40" height="40"/> </a>
 	<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="/media/icons/Linux.png" alt="linux" width="40" height="40"/> </a>
@@ -46,6 +52,7 @@
 	<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/VS code.png" alt="vscode" width="40" height="40"/> </a>
 	<a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Sublime Text.png" alt="sublimetext" width="40" height="40"/> </a>
 	<a href="https://krita.org/en/" target="_blank" rel="noreferrer"> <img src="/media/icons/Krita.png" alt="krita" width="40" height="40"/> </a> 
+</div>
 
 </div>
 
