@@ -17,19 +17,24 @@
 
 </div>
 
-<div align="right">
+<div align="left">
 
-- 🔭 I’m currently working on [so_long](https://github.com/Demiaeuw/42_so_long)
+- 🔭 I’m currently working on so_long
 
 - 🌱 I’m currently learning **C language**
 
-<h3 align="left">Languages and Tools:
-<p align="left">
+<h3 align="left">Languages and Tools:</h3>
+
+<div align="center">
 
 - 💻 **Languages**
 
 	<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/C language.png" alt="c" width="40" height="40"/></a>
 	<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="/media/icons/Python language.png" alt="python" width="40" height="40"/> </a>
+
+</div>
+
+<div align="center">
 
 - 🛠️ **Tools**
 
@@ -40,11 +45,12 @@
 	<a href="https://learn.microsoft.com/en-us/powershell/" target="_blank" rel="noreferrer"> <img src="/media/icons/Powershell.png" alt="Powershell" width="40" height="40"/> </a>
 	<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/VS code.png" alt="vscode" width="40" height="40"/> </a>
 	<a href="https://www.sublimetext.com/" target="_blank" rel="noreferrer"> <img src="/media/icons/Sublime Text.png" alt="sublimetext" width="40" height="40"/> </a>
-	<a href="https://krita.org/en/" target="_blank" rel="noreferrer"> <img src="/media/icons/Krita.png" alt="krita" width="40" height="40"/> </a> </p>
-
-</h3>
+	<a href="https://krita.org/en/" target="_blank" rel="noreferrer"> <img src="/media/icons/Krita.png" alt="krita" width="40" height="40"/> </a> 
 
 </div>
+
+</div>
+
 
 <div align="right">
 
