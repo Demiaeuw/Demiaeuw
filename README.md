@@ -1,6 +1,6 @@
-<h1 align="center">Hi 👋, I'm Adrien</h1>
-
 ---
+
+<h1 align="center">Hi 👋, I'm Adrien</h1>
 
 <img align="right" src="/media/gif_clouds_hader.gif" alt="header">
 
