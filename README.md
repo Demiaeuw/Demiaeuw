@@ -17,6 +17,12 @@
 
 <a href="https://42perpignan.fr/" target="blank"><img align="center" src="/media/42_header.png" alt="42_hader" width="90%" height="280"> </a>
 
+<p align="center">
+  <a href="https://badge.mediaplus.ma/kettlebells/acabarba?1337Badge=off&UM6P=off">
+    <img src="https://badge.mediaplus.ma/kettlebells/acabarba?1337Badge=off&UM6P=off" />
+  </a>
+</p>
+
 </div>
 
 ---
