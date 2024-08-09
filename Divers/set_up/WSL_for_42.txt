@@ -83,6 +83,10 @@
 			pour eviter les problemes. Si vous ouvrez le dossier via l'explorateur Windows directement 
 			cela peut generer des erreur de compilation et autre.
 
+			Il faudra sync vos addon preferer qui sont sur le vscode de base dans Ubuntu. pour ca dans Addons vous avez
+			une nouvelle cathegorie : WSL : <votre distribution> avec un nuage avec un fleche, cliquez dessus et
+			séléctionnez les addons que vous voulez utilisé.
+
 			Pour quitter WSL dans VScode cliquez en bas a gauche sur l'icone a double chevron pour acceder au menu
 			des connection a distance.
 
