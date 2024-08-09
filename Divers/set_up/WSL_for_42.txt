@@ -93,4 +93,7 @@
 -Accés a WSL via terminal
 
 	-Je vous conseil de passer par l'apps terminal de windows et d'ouvrir un nouvel onglet en selectionant Ubuntu
-	Vous pouvez egalement, dans PowerShell tape --> wsl ce qui vous connectera a votre WSL 
+	Si vous tapez wsl dans powershell vous allez arriver dans windows avec wsl. Ouvrir un nouvel onglet sous Ubuntu 
+	vous permet d'etre directement dans WSL mais surtout de ne pas en sortir et donc eviter tout probleme de sync
+	ou autre problemes de compatibilité
+	-Partez du principe que WSL est une machine virtuel (meme si ce n'est pas le cas) dans un premier temps.
