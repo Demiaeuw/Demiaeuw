@@ -1,0 +1,70 @@
+-Installer WSL2
+
+	-Dans PowerShell
+		wsl --install
+	-Vérifier la version
+		wsl -l -v
+
+-Installer Ubuntu
+
+	-Dans PowerShell
+		wsl --list --online
+	-Installer une distro spécifique
+		wsl --install -d <Nom_de_la_Distribution>
+
+-Mise a jour WSL2
+
+	-Dans PowerShell
+		wsl --update
+
+-Redemarrer WSL2
+
+	-Dans PowerShell
+		wsl --shutdown
+
+-Redemarrer le pc quand il le demande
+
+-Installation des dépendances necessaire au cursur 42
+
+	-Dans WSL
+		sudo apt update
+		sudo apt upgrade
+
+	-Interface graphique
+		sudo apt install x11-apps -y
+
+	(-Explorateur de fichier)
+		sudo apt install nautilus -y
+
+	-Norminette
+		sudo apt install python3-pip
+	|	pip3 install norminette
+	 \	norminette -v
+	  \
+	    ->	-si WARNING
+		vim ~/.bashrc
+		-ajouter la ligne a la fin du fichier
+		export PATH="$HOME/.local/bin:$PATH"
+
+	-Valgrind
+		sudo apt install valgrind
+		valgrind --version 
+	
+
+-SSH key et git /  github
+
+	-Config base de git
+		git config user.name <votre_nom>
+		git config user.email <votre_email@example.com>
+		git config --global --list
+
+	-Création clé SSH
+		ssh-keygen
+		enter
+		enter
+		enter
+		enter
+		cd
+		cd .ssh
+		cat id_rsa.pub
+		-ajoutez cette clé ou c'est necessaire
