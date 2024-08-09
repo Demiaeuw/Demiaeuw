@@ -67,4 +67,26 @@
 		cd
 		cd .ssh
 		cat id_rsa.pub
-		-ajoutez cette clé ou c'est necessaire
+		-ajoutez cette clé ou c'est necessaire.
+
+		ATTENTION, si vous avez deja une clé SSH pour votre environement Windows, vous devrez malgrès tout en generer 
+		une pour WSL, pour eviter les erreurs lors de vos commit. Passer par la clé de votre windows créer des 
+		erreur de sync pour utilisé plainement les fonctionalité de git.
+
+-Utilisé VScode
+
+	-Dans VScode
+		-Installer l'addon Explorateur Distant
+		-Connectez vous a votre distro Ubuntu via cet explorateur Distant
+
+			Cela permet de lancer VScode directement dans l'environement Linux de WSL 
+			pour eviter les problemes. Si vous ouvrez le dossier via l'explorateur Windows directement 
+			cela peut generer des erreur de compilation et autre.
+
+			Pour quitter WSL dans VScode cliquez en bas a gauche sur l'icone a double chevron pour acceder au menu
+			des connection a distance.
+
+-Accés a WSL via terminal
+
+	-Je vous conseil de passer par l'apps terminal de windows et d'ouvrir un nouvel onglet en selectionant Ubuntu
+	Vous pouvez egalement, dans PowerShell tape --> wsl ce qui vous connectera a votre WSL 
