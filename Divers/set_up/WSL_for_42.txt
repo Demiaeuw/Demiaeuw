@@ -9,22 +9,22 @@
 
 	-Dans PowerShell
 		wsl --list --online
-	-Installer une distro spécifique
+	-Installer une distribution spécifique
 		wsl --install -d <Nom_de_la_Distribution>
 
--Mise a jour WSL2
+-Mise à jour WSL2
 
 	-Dans PowerShell
 		wsl --update
 
--Redemarrer WSL2
+-Redémarrer WSL2
 
 	-Dans PowerShell
 		wsl --shutdown
 
--Redemarrer le pc quand il le demande
+-Redémarrer le PC quand il le demande
 
--Installation des dépendances necessaire au cursur 42
+-Installation des dépendances nécessaires au cursus 42
 
 	-Dans WSL
 		sudo apt update
@@ -33,17 +33,17 @@
 	-Interface graphique
 		sudo apt install x11-apps -y
 
-	(-Explorateur de fichier)
+	(-Explorateur de fichiers)
 		sudo apt install nautilus -y
 
 	-Norminette
 		sudo apt install python3-pip
 	|	pip3 install norminette
-	 \	norminette -v
+	\	norminette -v
 	  \
 	    ->	-si WARNING
 		vim ~/.bashrc
-		-ajouter la ligne a la fin du fichier
+		-ajouter la ligne à la fin du fichier
 		export PATH="$HOME/.local/bin:$PATH"
 
 	-Valgrind
@@ -51,9 +51,9 @@
 		valgrind --version 
 	
 
--SSH key et git /  github
+-Clé SSH et Git / GitHub
 
-	-Config base de git
+	-Configuration de base de Git
 		git config user.name <votre_nom>
 		git config user.email <votre_email@example.com>
 		git config --global --list
@@ -67,41 +67,41 @@
 		cd
 		cd .ssh
 		cat id_rsa.pub
-		-ajoutez cette clé ou c'est necessaire.
+		-ajoutez cette clé où c'est nécessaire.
 
-		ATTENTION, si vous avez deja une clé SSH pour votre environement Windows, vous devrez malgrès tout en generer 
-		une pour WSL, pour eviter les erreurs lors de vos commit. Passer par la clé de votre windows créer des 
-		erreur de sync pour utilisé plainement les fonctionalité de git.
+		ATTENTION, si vous avez déjà une clé SSH pour votre environnement Windows, vous devrez malgré tout en générer 
+		une pour WSL, pour éviter les erreurs lors de vos commits. Passer par la clé de votre Windows crée des 
+		erreurs de synchronisation pour utiliser pleinement les fonctionnalités de Git.
 
--Utilisé VScode
+-Utiliser VScode
 
 	-Dans VScode
 		-Installer l'addon Explorateur Distant
-		-Connectez vous a votre distro Ubuntu via cet explorateur Distant
+		-Connectez-vous à votre distribution Ubuntu via cet Explorateur Distant
 
-			Cela permet de lancer VScode directement dans l'environement Linux de WSL 
-			pour eviter les problemes. Si vous ouvrez le dossier via l'explorateur Windows directement 
-			cela peut generer des erreur de compilation et autre.
+			Cela permet de lancer VScode directement dans l'environnement Linux de WSL 
+			pour éviter les problèmes. Si vous ouvrez le dossier via l'explorateur Windows directement 
+			cela peut générer des erreurs de compilation et autres.
 
-			Il faudra sync vos addon preferer qui sont sur le vscode de base dans Ubuntu. pour ca dans Addons vous avez
-			une nouvelle cathegorie : WSL : <votre distribution> avec un nuage avec un fleche, cliquez dessus et
-			séléctionnez les addons que vous voulez utilisé.
+			Il faudra synchroniser vos addons préférés qui sont sur le VScode de base dans Ubuntu. Pour cela, dans Addons, vous avez
+			une nouvelle catégorie : WSL : <votre distribution> avec un nuage avec une flèche, cliquez dessus et
+			sélectionnez les addons que vous voulez utiliser.
 
-			Pour quitter WSL dans VScode cliquez en bas a gauche sur l'icone a double chevron pour acceder au menu
-			des connection a distance.
+			Pour quitter WSL dans VScode, cliquez en bas à gauche sur l'icône à double chevron pour accéder au menu
+			des connexions à distance.
 
--Accés a WSL via terminal
+-Accès à WSL via terminal
 
-	-Je vous conseil de passer par l'apps terminal de windows et d'ouvrir un nouvel onglet en selectionant Ubuntu
-	Si vous tapez wsl dans powershell vous allez arriver dans windows avec wsl. Ouvrir un nouvel onglet sous Ubuntu 
-	vous permet d'etre directement dans WSL mais surtout de ne pas en sortir et donc eviter tout probleme de sync
-	ou autre problemes de compatibilité
-	-Partez du principe que WSL est une machine virtuel (meme si ce n'est pas le cas) dans un premier temps.
+	-Je vous conseille de passer par l'app Terminal de Windows et d'ouvrir un nouvel onglet en sélectionnant Ubuntu.
+	Si vous tapez wsl dans PowerShell, vous allez arriver dans Windows avec WSL. Ouvrir un nouvel onglet sous Ubuntu 
+	vous permet d'être directement dans WSL mais surtout de ne pas en sortir et donc d'éviter tout problème de synchronisation
+	ou autres problèmes de compatibilité.
+	-Partez du principe que WSL est une machine virtuelle (même si ce n'est pas le cas) dans un premier temps.
 
--Pensez a shutdown WSL
+-Pensez à shutdown WSL
 
 	-Dans PowerShell
 		wsl --shutdown
-	-Wsl ce lance automatiquement quand vous essayez d'acceder a un systeme ou sous systeme de votre WLS. il faut
-	la shutdown pour eviter la sur conso de votre proc et de votre ram. pour ce faire sois dans PowerShell
-	soit directement dans le gestionnaire de tache il faut shutdown VemmemWSL.
+	-WSL se lance automatiquement quand vous essayez d'accéder à un système ou sous-système de votre WSL. Il faut
+	le shutdown pour éviter la surconsommation de votre processeur et de votre RAM. Pour ce faire, soit dans PowerShell
+	soit directement dans le gestionnaire de tâches, il faut shutdown VmmemWSL.
