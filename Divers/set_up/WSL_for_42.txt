@@ -1,42 +1,108 @@
--Installer WSL2
+✅ To-Do : Configuration d'une Interface de Travail Propre via WSL pour l'École 42
 
-	-Dans PowerShell
+- Ce document a pour objectif de vous guider pas à pas dans l'installation et la configuration de votre environnement 
+de travail sous WSL (Windows Subsystem for Linux). Il est conçu spécifiquement pour les étudiants de l'École 42,
+afin de vous permettre de travailler efficacement dans un environnement Linux tout en utilisant Windows.
+Vous trouverez ici toutes les étapes nécessaires pour installer WSL2, configurer Ubuntu, installer les dépendances requises
+pour les projets de 42, et optimiser votre utilisation de VScode avec WSL. Suivez ces instructions pour vous assurer
+que votre configuration est propre, fonctionnelle et adaptée aux exigences des projets de l'École 42.
+
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+
+- Disclaimer
+
+🚧 - Ce guide présente une méthode pour installer, configurer et désinstaller WSL, basée sur mes préférences et mon expérience personnelle.
+Il s'agit d'une façon de faire parmi d'autres, et il existe certainement d'autres méthodes ou outils pour atteindre les mêmes objectifs.
+N'hésitez pas à explorer d'autres ressources ou approches qui pourraient mieux correspondre à vos besoins ou préférences spécifiques.
+Ce guide est destiné à vous fournir une base solide, mais vous êtes encouragé à l'adapter en fonction de vos propres exigences.
+
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+
+💡 - Avantages et Inconvénients de WSL par rapport à une Machine Virtuelle
+
+	- Avantages de WSL :
+
+- Performance améliorée : WSL est intégré directement dans le système d'exploitation Windows, 
+ce qui permet une utilisation plus fluide des ressources système (CPU, RAM) par rapport à une machine virtuelle traditionnelle.
+Vous n'avez pas besoin de réserver une portion spécifique de votre RAM ou CPU, WSL utilise dynamiquement ce dont il a besoin.
+- Facilité d'installation et de configuration : L'installation de WSL est beaucoup plus simple et rapide que la création et la 
+configuration d'une machine virtuelle. Vous pouvez commencer à travailler presque immédiatement sans avoir à gérer une machine virtuelle entière.
+- Intégration avec Windows : WSL permet une interaction directe entre Linux et Windows, vous permettant par exemple d'accéder
+à vos fichiers Windows depuis Linux et inversement. Cela facilite les workflows qui nécessitent l'utilisation de logiciels des deux environnements.
+- Utilisation réduite des ressources : Contrairement à une machine virtuelle, WSL ne nécessite pas de virtualisation complète du matériel,
+ce qui signifie une utilisation moindre des ressources du système, une consommation d'énergie réduite, et une durée de vie de la batterie
+prolongée sur les ordinateurs portables.
+
+	- Inconvénients de WSL :
+
+- Compatibilité limitée : Bien que WSL ait fait de grands progrès, il n'offre pas une compatibilité complète avec toutes les applications Linux,
+notamment celles qui nécessitent des modules de noyau ou des fonctionnalités spécifiques du matériel.
+- Moins d'isolation : WSL partage le noyau avec Windows, ce qui signifie que les processus Linux peuvent potentiellement affecter votre système Windows.
+Une machine virtuelle offre une isolation complète, limitant les risques de conflits ou de failles de sécurité entre les systèmes.
+- Performances graphiques limitées : Bien que WSL2 ait introduit un support graphique avec WSLg, il reste encore en retrait par rapport aux capacités
+d'une machine virtuelle avec une accélération GPU dédiée. Pour les tâches nécessitant une interface graphique complexe
+ou de la puissance graphique, une VM peut être plus adaptée.
+- Moins de contrôle sur l'environnement : Dans une machine virtuelle, vous avez un contrôle total sur l'environnement, y compris le matériel virtuel,
+les réseaux, et plus encore. WSL est plus limité à cet égard, ce qui peut poser des problèmes pour des configurations de réseau spécifiques
+ou des besoins de virtualisation avancés.
+
+- En résumé, WSL est idéal pour les utilisateurs qui cherchent à intégrer des outils Linux dans leur environnement Windows de manière transparente,
+avec une configuration rapide et une utilisation efficace des ressources. Toutefois, pour des besoins spécifiques en termes de compatibilité,
+d'isolation, ou de performances graphiques, une machine virtuelle reste une option plus robuste.
+
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+
+🚧 - Note importante :** Les éléments de cette to-do sont soit des actions à effectuer, soit des commandes à taper dans le terminal. 
+Les commandes à taper sont indiquées sans tiret devant elles. 
+Lorsque vous voyez une commande sans tiret, copiez-la directement dans votre terminal.
+
+
+- Installer WSL2:
+
+	- Dans PowerShell
 		wsl --install
-	-Vérifier la version
+	- Vérifier la version
 		wsl -l -v
 
--Installer Ubuntu
 
-	-Dans PowerShell
+- Installer Ubuntu:
+
+	- Dans PowerShell
 		wsl --list --online
-	-Installer une distribution spécifique
+	- Installer une distribution spécifique
 		wsl --install -d <Nom_de_la_Distribution>
 
--Mise à jour WSL2
 
-	-Dans PowerShell
+- Mise à jour WSL2:
+
+	- Dans PowerShell
 		wsl --update
 
--Redémarrer WSL2
 
-	-Dans PowerShell
+- Redémarrer WSL2:
+
+	- Dans PowerShell
 		wsl --shutdown
 
--Redémarrer le PC quand il le demande
 
--Installation des dépendances nécessaires au cursus 42
 
-	-Dans WSL
+- Redémarrer le PC quand il le demande
+
+
+
+- Installation des dépendances nécessaires au cursus 42:
+
+	- Dans WSL
 		sudo apt update
 		sudo apt upgrade
 
-	-Interface graphique
+	- Interface graphique (pour les projets utilisant la minilibx)
 		sudo apt install x11-apps -y
 
 	(-Explorateur de fichiers)
 		sudo apt install nautilus -y
 
-	-Norminette
+	- Norminette
 		sudo apt install python3-pip
 	|	pip3 install norminette
 	\	norminette -v
@@ -46,19 +112,20 @@
 		-ajouter la ligne à la fin du fichier
 		export PATH="$HOME/.local/bin:$PATH"
 
-	-Valgrind
+	- Valgrind
 		sudo apt install valgrind
 		valgrind --version 
 	
 
--Clé SSH et Git / GitHub
 
-	-Configuration de base de Git
+- Clé SSH et Git / GitHub:
+
+	- Configuration de base de Git
 		git config user.name <votre_nom>
 		git config user.email <votre_email@example.com>
 		git config --global --list
 
-	-Création clé SSH
+	- Création clé SSH
 		ssh-keygen
 		enter
 		enter
@@ -69,39 +136,83 @@
 		cat id_rsa.pub
 		-ajoutez cette clé où c'est nécessaire.
 
-		ATTENTION, si vous avez déjà une clé SSH pour votre environnement Windows, vous devrez malgré tout en générer 
+		- ATTENTION, si vous avez déjà une clé SSH pour votre environnement Windows, vous devrez malgré tout en générer 
 		une pour WSL, pour éviter les erreurs lors de vos commits. Passer par la clé de votre Windows crée des 
 		erreurs de synchronisation pour utiliser pleinement les fonctionnalités de Git.
 
--Utiliser VScode
 
-	-Dans VScode
-		-Installer l'addon Explorateur Distant
-		-Connectez-vous à votre distribution Ubuntu via cet Explorateur Distant
 
-			Cela permet de lancer VScode directement dans l'environnement Linux de WSL 
+- Utiliser VScode:
+
+	- Dans VScode
+		- Installer l'addon Explorateur Distant
+		- Connectez-vous à votre distribution Ubuntu via cet Explorateur Distant
+
+			- Cela permet de lancer VScode directement dans l'environnement Linux de WSL 
 			pour éviter les problèmes. Si vous ouvrez le dossier via l'explorateur Windows directement 
 			cela peut générer des erreurs de compilation et autres.
 
-			Il faudra synchroniser vos addons préférés qui sont sur le VScode de base dans Ubuntu. Pour cela, dans Addons, vous avez
+			- Il faudra synchroniser vos addons préférés qui sont sur le VScode de base dans Ubuntu. Pour cela, dans Addons, vous avez
 			une nouvelle catégorie : WSL : <votre distribution> avec un nuage avec une flèche, cliquez dessus et
 			sélectionnez les addons que vous voulez utiliser.
 
-			Pour quitter WSL dans VScode, cliquez en bas à gauche sur l'icône à double chevron pour accéder au menu
+			- Pour quitter WSL dans VScode, cliquez en bas à gauche sur l'icône à double chevron pour accéder au menu
 			des connexions à distance.
 
--Accès à WSL via terminal
 
-	-Je vous conseille de passer par l'app Terminal de Windows et d'ouvrir un nouvel onglet en sélectionnant Ubuntu.
+
+- Accès à WSL via terminal:
+
+	- Je vous conseille de passer par l'app Terminal de Windows et d'ouvrir un nouvel onglet en sélectionnant Ubuntu.
 	Si vous tapez wsl dans PowerShell, vous allez arriver dans Windows avec WSL. Ouvrir un nouvel onglet sous Ubuntu 
 	vous permet d'être directement dans WSL mais surtout de ne pas en sortir et donc d'éviter tout problème de synchronisation
 	ou autres problèmes de compatibilité.
 	-Partez du principe que WSL est une machine virtuelle (même si ce n'est pas le cas) dans un premier temps.
 
--Pensez à shutdown WSL
 
-	-Dans PowerShell
+
+- Pensez à shutdown WSL:
+
+	- Dans PowerShell
 		wsl --shutdown
-	-WSL se lance automatiquement quand vous essayez d'accéder à un système ou sous-système de votre WSL. Il faut
+	- WSL se lance automatiquement quand vous essayez d'accéder à un système ou sous-système de votre WSL. Il faut
 	le shutdown pour éviter la surconsommation de votre processeur et de votre RAM. Pour ce faire, soit dans PowerShell
 	soit directement dans le gestionnaire de tâches, il faut shutdown VmmemWSL.
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+
+
+- Désinstallation de WSL
+
+	- Désinstaller les distributions Linux :
+
+		- Dans PowerShell, listez toutes les distributions installées
+			wsl --list --all
+		- Désinstallez chaque distribution une par une
+			wsl --unregister <Nom_de_la_Distribution>
+
+
+	- Désinstaller les composants WSL :
+
+		- Désactivez WSL en désinstallant ses composants via PowerShell :
+			dism.exe /online /disable-feature /featurename:Microsoft-Windows-Subsystem-Linux
+			dism.exe /online /disable-feature /featurename:VirtualMachinePlatform
+
+
+	-Supprimer les fichiers associés à WSL :
+
+		- Supprimez les dossiers et fichiers restants dans le répertoire suivant :
+			%USERPROFILE%\AppData\Local\Packages\
+		- Recherchez les dossiers liés à WSL (nommés généralement "CanonicalGroupLimited..." ou similaires) et supprimez-les.
+
+	- Redémarrer votre PC :
+
+		- Une fois toutes les étapes ci-dessus réalisées, redémarrez votre PC pour finaliser la désinstallation.
+
+	- Vérification : 
+
+		- Vérifier la version
+			wsl -l -v
+
+
