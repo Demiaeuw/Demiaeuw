@@ -97,3 +97,11 @@
 	vous permet d'etre directement dans WSL mais surtout de ne pas en sortir et donc eviter tout probleme de sync
 	ou autre problemes de compatibilité
 	-Partez du principe que WSL est une machine virtuel (meme si ce n'est pas le cas) dans un premier temps.
+
+-Pensez a shutdown WSL
+
+	-Dans PowerShell
+		wsl --shutdown
+	-Wsl ce lance automatiquement quand vous essayez d'acceder a un systeme ou sous systeme de votre WLS. il faut
+	la shutdown pour eviter la sur conso de votre proc et de votre ram. pour ce faire sois dans PowerShell
+	soit directement dans le gestionnaire de tache il faut shutdown VemmemWSL.
