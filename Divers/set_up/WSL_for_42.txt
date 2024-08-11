@@ -121,8 +121,8 @@ Lorsque vous voyez une commande sans tiret, copiez-la directement dans votre ter
 - Clé SSH et Git / GitHub:
 
 	- Configuration de base de Git
-		git config user.name <votre_nom>
-		git config user.email <votre_email@example.com>
+		git config user.name "<votre_nom>"
+		git config user.email "<votre_email@example.com>"
 		git config --global --list
 
 	- Création clé SSH
