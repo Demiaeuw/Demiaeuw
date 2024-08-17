@@ -175,9 +175,10 @@ Lorsque vous voyez une commande sans tiret, copiez-la directement dans votre ter
 
 	- Dans PowerShell
 		wsl --shutdown
-	- WSL se lance automatiquement quand vous essayez d'accéder à un système ou sous-système de votre WSL. Il faut
-	le shutdown pour éviter la surconsommation de votre processeur et de votre RAM. Pour ce faire, soit dans PowerShell
-	soit directement dans le gestionnaire de tâches, il faut shutdown VmmemWSL.
+	- WSL se lance automatiquement quand vous essayez d'accéder à un système ou sous-système de votre WSL. Normalement il doit ce 
+	quitter de lui même si vous ne l'utilisez plus mais je vous conseil de le shutdown pour éviter la surconsommation de votre
+	processeur et de votre RAM (surtout si vous utilisez une petite config). Pour ce faire, soit dans PowerShell soit directement
+	dans le gestionnaire de tâches, il faut shutdown VmmemWSL.
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
