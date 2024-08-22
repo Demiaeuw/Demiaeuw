@@ -2,7 +2,12 @@
 
 <h1 align="center">Hi 👋, I'm Adrien</h1>
 
-<img src="/media/gif_clouds_hader.gif" alt="header">
+<div align="center">
+  <img src="/media/gif_clouds_hader.gif" alt="header">
+</div>
+
+---
+
 <!--
 <div align="left">
 
