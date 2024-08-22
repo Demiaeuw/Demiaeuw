@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Adrien</h1>
 
 <img align="right" src="/media/gif_clouds_hader.gif" alt="header">
-
+<!--
 <div align="left">
 
 <h3 align="center">A passionate Dev from the South of France</h3>
@@ -69,3 +69,4 @@
 
 
 </p>
+-->
